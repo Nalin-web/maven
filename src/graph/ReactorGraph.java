@@ -74,7 +74,7 @@ public class ReactorGraph {
                 clusteredGraph.add(cluster);
             }
 
-            // Map to store new nodes by node name
+            Map to store new nodes by node name
             Map<String, MutableNode> nodeMap = new HashMap<>();
             Map<String, String> nodeToCluster = new HashMap<>();
             Map<String, String> newNames = new HashMap<>();
